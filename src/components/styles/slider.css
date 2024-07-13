@@ -1,0 +1,45 @@
+/* customSlider.css */
+.custom-range-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px; /* Track height */
+    background: #009ba5; /* Track background color */
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* WebKit browsers (Chrome, Safari) */
+  .custom-range-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; /* Thumb width */
+    height: 15px; /* Thumb height */
+    background: #f8ef00; /* Thumb color */
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .custom-range-slider::-webkit-slider-thumb:hover {
+    background: #f8ef00; 
+  }
+
+  /* customCheckbox.css */
+.custom-checkbox {
+    appearance: none; 
+    width: 1.25rem; /* Width of the checkbox */
+    height: 1.25rem; /* Height of the checkbox */
+    background-color: transparent; /* Make background transparent */
+    border: 2px solid white; /* Custom border */
+    cursor: pointer; /* Change cursor to pointer */
+    position: relative; /* Position for the custom checkmark */
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #f8ef00; 
+    border: none;
+  }
+  
+  .custom-checkbox:checked::after {
+    position: absolute;
+  }
+  
